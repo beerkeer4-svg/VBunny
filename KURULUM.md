@@ -20,7 +20,7 @@ Bu anahtar kapalıysa hiçbir userscript çalışmaz, hata da vermez — ilk bak
 
 **3. Linke tıkla → "Kur"**
 ```
-https://raw.githubusercontent.com/KULLANICI/VBunny/main/vbunny.user.js
+https://raw.githubusercontent.com/beerkeer4-svg/VBunny/main/vbunny.user.js
 ```
 Tampermonkey kurulum ekranını açar. "Kur"a bas, bitti. Herhangi bir sitede sağ altta panel çıkar.
 
@@ -35,13 +35,13 @@ Tampermonkey kurulum ekranını açar. "Kur"a bas, bitti. Herhangi bir sitede sa
 2. `dist\vbunny.user.js` dosyasını repo **köküne** `vbunny.user.js` adıyla yükle.
 3. `src\header.txt` içindeki şu satırları kendi adresinle değiştir, sonra `build.ps1` çalıştır:
    ```
-   // @namespace    https://github.com/KULLANICI/VBunny
-   // @updateURL    https://raw.githubusercontent.com/KULLANICI/VBunny/main/vbunny.user.js
-   // @downloadURL  https://raw.githubusercontent.com/KULLANICI/VBunny/main/vbunny.user.js
+   // @namespace    https://github.com/beerkeer4-svg/VBunny
+   // @updateURL    https://raw.githubusercontent.com/beerkeer4-svg/VBunny/main/vbunny.user.js
+   // @downloadURL  https://raw.githubusercontent.com/beerkeer4-svg/VBunny/main/vbunny.user.js
    ```
 4. Paylaşacağın link:
    ```
-   https://raw.githubusercontent.com/<kullanıcı>/VBunny/main/vbunny.user.js
+   https://raw.githubusercontent.com/beerkeer4-svg/VBunny/main/vbunny.user.js
    ```
 5. **Güncelleme:** `@version` değerini artır (ör. 0.4.1) → `build.ps1` → dosyayı repoya tekrar yükle.
    Tampermonkey 24 saat içinde (ya da menüden "Güncellemeleri denetle") yeni sürümü alır.
@@ -57,8 +57,8 @@ Tampermonkey kurulum ekranını açar. "Kur"a bas, bitti. Herhangi bir sitede sa
 > Mağaza yok, izin yok, hesap yok: Tampermonkey'i kur, tek linke tıkla, bitti.
 > Efeler/Sultanlar, SuperLega, PlusLiga, Superliga, CEV ŞL + millî maçlar. Canlı set puanı,
 > set set sonuçlar, favori takım, 9 dil, 4 tema.
-> ↳ kurulum: <link>
-> ↳ kaynak: <github linki>
+> ↳ kurulum: https://raw.githubusercontent.com/beerkeer4-svg/VBunny/main/vbunny.user.js
+> ↳ kaynak: https://github.com/beerkeer4-svg/VBunny
 
 ---
 
